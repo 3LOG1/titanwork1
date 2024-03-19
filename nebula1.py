@@ -18,10 +18,11 @@ echo "=================="
 echo "Password Updated"
 echo "=================="
 
-# Check if password is correct
-#if [[ "$password" == "" ]]; then
-#    echo "Access granted."
-#else
-#    echo "Access denied."
-#fi
+ Check if password is correct
+if [[ "$password" == "" ]]; then
+    echo "Access granted."
+else
+    echo "Access denied."
+fi
 
+#changes done
